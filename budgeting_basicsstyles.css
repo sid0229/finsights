@@ -1,0 +1,59 @@
+body {
+    background-color: #cce7ff; /* Light Blue Background */
+    color: #1a1a2e;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #004aad; /* Deep Blue */
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3f2fd;
+    padding: 12px;
+    margin: 8px 0;
+    border-left: 5px solid #004aad;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.back-btn {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background: #004aad;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #003080;
+}

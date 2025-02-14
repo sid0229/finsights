@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsights</title>
+    <link rel="stylesheet" href="finsightslanding.css">
+    <link rel="stylesheet" href="finsightsloginstyles.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="logo">
+        <img id="logo" src="Finsights (1) - Copy.png" alt="Finsights Logo">
+    </div>
+    <div class="navbtns">
+        <a href="chatbot.html">
+            <button class="button-55" role="button">AI Help</button>
+        </a>
+        <button class="button-55" role="button">Our Team</button>
+        <a href="finsightslogin.html">
+            <button class="button-55" role="button">Login/Signup</button>
+        </a>
+    </div>
+</div>
+
+<div class="maincontent">
+    <div class="herocontent">
+        <h1>Achieve your financial goals faster with Finsights.</h1>
+    </div>
+    <div class="herocntn">    
+        <h3>Empowering future investors with knowledge.</h3>
+    </div>
+    <div class="button">
+        <a href="lessons.html">
+            <button class="button-57" role="button"><span class="text">Start Learning</span></button>
+        </a>   
+    </div>
+</div>
+
+<style>
+    /* Flexbox and Media Queries for Responsiveness */
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        .maincontent {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbtns {
+            margin-top: 10px;
+        }
+        .maincontent h1 {
+            font-size: 1.8rem;
+        }
+    }
+</style>
+
+</body>
+</html>
